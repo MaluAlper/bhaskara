@@ -30,8 +30,8 @@ namespace bhaskara
 
             
 
-            x1= (- b + (delta))/2*a;
-            x2= (- b - (delta))/2*a;
+            x1= (- b + Math.Sqrt(delta))/2*a;
+            x2= (- b - Math.Sqrt(delta))/2*a;
             Console.Write("Resultado de x1 " + x1 + " Resultado de x2 " + x2);
             
             
